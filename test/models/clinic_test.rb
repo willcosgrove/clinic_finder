@@ -21,12 +21,12 @@ class ClinicTest < ActiveSupport::TestCase
     end
 
     it "will return true if the city changes" do
-      clinic.update_attributes(city: "Fort Worth")
+      clinic.update_attributes(city: "Dallas")
       assert(clinic.send(:geocoded_attribute_changed?))
     end
 
     it "will return true if the state changes" do
-      clinic.update_attributes(state: "TX")
+      clinic.update_attributes(state: "AZ")
       assert(clinic.send(:geocoded_attribute_changed?))
     end
 
