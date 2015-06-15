@@ -1,6 +1,6 @@
 require 'open-uri'
 
-class FdaImportJob < ActiveJob::Base
+class ClinicFetcherJob < ActiveJob::Base
   queue_as :default
 
   def perform

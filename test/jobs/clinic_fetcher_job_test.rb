@@ -1,7 +1,7 @@
 require 'test_helper'
 
-class FdaImportJobTest < ActiveJob::TestCase
-  let(:job) { FdaImportJob.new }
+class ClinicFetcherJobTest < ActiveJob::TestCase
+  let(:job) { ClinicFetcherJob.new }
   let(:file) { job.send(:fda_zip_file) }
 
   describe :fda_zip_file do
