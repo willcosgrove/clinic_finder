@@ -1,17 +1,14 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  address_1: MyString
-  address_2: MyString
-  address_3: MyString
-  city: MyString
-  state: MyString
-  zip_code: MyString
-  phone: MyString
-  fax: MyString
-  lat: 9.99
-  lng: 9.99
+  name: My Clinic
+  address_1: 2028 Matador Ranch Rd
+  city: Fort Worth
+  state: TX
+  zip_code: 76134
+  phone: 8175555555
+  lat: 32.649855
+  lng: -97.33358
 
 two:
   name: MyString
