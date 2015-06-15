@@ -30,6 +30,9 @@ gem 'rubyzip', '>= 1.0.0', require: 'zip'
 # For better CSV extracting
 gem 'smarter_csv'
 
+# For Geocoding
+gem 'geokit-rails', '~> 2.1.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
