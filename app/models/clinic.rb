@@ -1,5 +1,10 @@
 class Clinic < ActiveRecord::Base
   after_commit :geocode, if: :geocoded_attribute_changed?
+  searchkick locations: ["location"]
+
+  def search_data
+    attributes.merge(location: [lat, lng])
+  end
 
   private
 

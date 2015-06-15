@@ -33,6 +33,9 @@ gem 'smarter_csv'
 # For Geocoding
 gem 'geokit-rails', '~> 2.1.0'
 
+# You know, for search
+gem 'searchkick'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
