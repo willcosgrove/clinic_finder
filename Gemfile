@@ -36,6 +36,12 @@ gem 'geokit-rails', '~> 2.1.0'
 # You know, for search
 gem 'searchkick'
 
+# Redis for caching
+gem 'redis-rails'
+
+# For redis connection pooling
+gem 'connection_pool'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
